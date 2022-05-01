@@ -1,0 +1,10 @@
+name: Build
+on: [push]
+
+jobs:
+  build:
+    name: Build and test
+    runs-on: ubuntu-latest
+    steps:
+    - run: |
+        echo The PR was merged
